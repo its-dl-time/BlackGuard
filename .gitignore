@@ -1,6 +1,10 @@
+# Node
 node_modules/
 dist/
+build/
+
+# Env
 .env
-.env.*
-.cache/
-.vite/
+
+# Logs
+*.log

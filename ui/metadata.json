@@ -1,0 +1,5 @@
+{
+  "name": "Commitment Sentinel",
+  "description": "A minimalist, robust decision-making dashboard that helps users stick to long-term plans by analyzing risks and logging commitment overrides with AI-driven consequences.",
+  "requestFramePermissions": []
+}

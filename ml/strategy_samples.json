@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "FPT",
+    "side": "long",
+    "entry_price": 65.54,
+    "take_profit_pct": 0.15,
+    "stop_loss_pct": 0.07,
+    "holding_period_days": 30,
+    "position_size_pct": 0.2
+  },
+  {
+    "symbol": "VHM",
+    "side": "long",
+    "entry_price": 70.14,
+    "take_profit_pct": 0.18,
+    "stop_loss_pct": 0.08,
+    "holding_period_days": 45,
+    "position_size_pct": 0.15
+  },
+  {
+    "symbol": "GAS",
+    "side": "long",
+    "entry_price": 72.29,
+    "take_profit_pct": 0.12,
+    "stop_loss_pct": 0.05,
+    "holding_period_days": 60,
+    "position_size_pct": 0.25
+  },
+  {
+    "symbol": "MWG",
+    "side": "long",
+    "entry_price": 119.45,
+    "take_profit_pct": 0.14,
+    "stop_loss_pct": 0.06,
+    "holding_period_days": 20,
+    "position_size_pct": 0.1
+  },
+  {
+    "symbol": "VCB",
+    "side": "long",
+    "entry_price": 104.92,
+    "take_profit_pct": 0.1,
+    "stop_loss_pct": 0.04,
+    "holding_period_days": 90,
+    "position_size_pct": 0.3
+  }
+]
