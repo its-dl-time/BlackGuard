@@ -1,0 +1,29 @@
+# Example Python Interface Contract for ML Service
+# This is the expected interface for the Python script that the backend calls.
+
+# Script: ml/run_risk_with_template.py (or similar)
+# Command: python ml/run_risk_with_template.py <strategy> <market> <orderType>
+
+# Input Arguments:
+# - strategy: string (e.g., "momentum", "mean_reversion")
+# - market: string (e.g., "vn30", "sp500")
+# - orderType: string (e.g., "buy", "sell", "force_execute")
+
+# Output:
+# - JSON to stdout: { "risk_score": <number> }
+# - risk_score: float between 0.0 and 1.0
+# - Exit code: 0 on success, non-zero on error
+
+# Example Usage:
+# python ml/run_risk_with_template.py momentum vn30 buy
+# Output: {"risk_score": 0.75}
+
+# Error Handling:
+# - If invalid inputs, output error to stderr and exit with code 1
+# - Timeout: Backend will kill process after 10 seconds
+# - Malformed JSON: Backend will use mock data (0.5)
+
+# Notes:
+# - Script should be fast (<10s) to avoid timeout
+# - No interactive input, only command-line args and stdout output
+# - Backend does not parse stderr, only checks exit code
